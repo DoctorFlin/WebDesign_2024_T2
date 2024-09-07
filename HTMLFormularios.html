@@ -14,8 +14,8 @@
         <input type="datetime-local" id="meeting" name="meeting"><br>
 
         <h2>Informe seus Dados de Acesso</h2>
-        <label for="fname">Usuário:</label>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username"><br>
         <label for="pwd">Senha:</label>
         <input type="password" id="pwd" name="pwd"><br>
 
@@ -28,16 +28,28 @@
         <input type="text" id="number" name="number" placeholder="Digite o número"><br>
         <label for="complement">Complemento:</label>
         <input type="text" id="complement" name="complement" placeholder="Digite seu complemento"><br>
+        
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" placeholder="Digite seu CEP"><br>
 
-        <label for="city">Cidade:</label>
-        <select id="city" name="city">
-            <option value="Sorocaba">Sorocaba</option>
-            <option value="Jundiaí">Jundiaí</option>
-            <option value="Itu">Itu</option>
-            <option value="Campinas">Campinas</option>
-            <option value="São Paulo">São Paulo</option>
-            <option value="Marília">Marília</option>
-        </select><br>
+        <h2>Selecione a Cidade</h2>
+        <label><input type="checkbox" name="city" value="Sorocaba"> Sorocaba</label><br>
+        <label><input type="checkbox" name="city" value="Jundiaí"> Jundiaí</label><br>
+        <label><input type="checkbox" name="city" value="Itu"> Itu</label><br>
+        <label><input type="checkbox" name="city" value="Campinas"> Campinas</label><br>
+        <label><input type="checkbox" name="city" value="São Paulo"> São Paulo</label><br>
+        <label><input type="checkbox" name="city" value="Marília"> Marília</label><br>
+
+        <label for="state">Selecione o Estado:</label>
+        <select id="state" name="state">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="PR">Paraná</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+        </select><br><br>
 
         <input type="submit" value="Enviar">
     </fieldset>
@@ -45,3 +57,4 @@
 
 </body>
 </html>
+
