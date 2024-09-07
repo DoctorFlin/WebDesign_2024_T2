@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formulários</title>
+</head>
+<body>
+
+<form action="https://www.w3school.com/action_page.php">
+    <fieldset>
+        <legend>Formulário</legend>
+        <label for="meeting">Digite a Data:</label>
+        <input type="datetime-local" id="meeting" name="meeting"><br>
+
+        <h2>Informe seus Dados de Acesso</h2>
+        <label for="fname">Usuário:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="pwd">Senha:</label>
+        <input type="password" id="pwd" name="pwd"><br>
+
+        <h2>Informe seus Dados Pessoais</h2>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="address">Endereço:</label>
+        <input type="text" id="address" name="address" placeholder="Digite seu endereço completo"><br>
+        <label for="number">Número:</label>
+        <input type="text" id="number" name="number" placeholder="Digite o número"><br>
+        <label for="complement">Complemento:</label>
+        <input type="text" id="complement" name="complement" placeholder="Digite seu complemento"><br>
+
+        <label for="city">Cidade:</label>
+        <select id="city" name="city">
+            <option value="Sorocaba">Sorocaba</option>
+            <option value="Jundiaí">Jundiaí</option>
+            <option value="Itu">Itu</option>
+            <option value="Campinas">Campinas</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Marília">Marília</option>
+        </select><br>
+
+        <input type="submit" value="Enviar">
+    </fieldset>
+</form>
+
+</body>
+</html>
