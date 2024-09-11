@@ -1,24 +1,26 @@
 /* Estilo geral da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #000; /* Fundo preto */
     margin: 0;
     padding: 0;
+    color: #fff; /* Texto branco */
 }
 
 /* Barra de navegação superior */
 .navbar {
     background-color: #000; /* Fundo preto */
-    color: #fff; /* Texto branco */
-    padding: 15px;
+    padding: 20px 0;
     text-align: center;
+    font-size: 24px; /* Tamanho grande como um título */
+    font-weight: bold;
 }
 
 .navbar a {
-    color: #fff;
+    color: #fff; /* Texto branco */
     text-decoration: none;
     margin: 0 15px;
-    font-size: 18px;
+    font-family: Arial, sans-serif;
 }
 
 .navbar a:hover {
@@ -27,6 +29,7 @@ body {
 
 /* Estilo do formulário */
 form {
+    background-color: #fff; /* Fundo branco */
     border: 2px solid #000; /* Borda preta */
     border-radius: 10px;
     padding: 20px;
@@ -34,6 +37,7 @@ form {
     width: 80%;
     max-width: 600px; /* Limita a largura máxima do formulário */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    color: #000; /* Texto preto */
 }
 
 /* Estilo das labels e inputs */
@@ -95,3 +99,4 @@ legend {
     align-items: center;
     margin-bottom: 10px;
 }
+
