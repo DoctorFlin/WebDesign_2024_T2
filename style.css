@@ -1,0 +1,67 @@
+/* Centraliza o formulário na página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff; /* Fundo branco para contraste */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    width: 400px;
+}
+
+/* Títulos */
+h2 {
+    color: #333; /* Cor do texto */
+    font-size: 1.2em; /* Tamanho da fonte */
+    margin-bottom: 10px;
+}
+
+/* Estilo dos labels e inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+select {
+    width: calc(100% - 20px); /* Largura total menos as margens */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilo para o botão de enviar */
+input[type="submit"] {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Efeito de hover para o botão */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cor mais escura quando o mouse está sobre */
+}
